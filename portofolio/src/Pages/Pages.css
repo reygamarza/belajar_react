@@ -1,0 +1,58 @@
+/* Home.css */
+
+.header-glow {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #007bff;
+  }
+  
+  .game-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .game-image {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .game-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+
+/* Stores.css */
+
+.stores-container {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .store-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .store-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .store-logo {
+    height: 150px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+  }
+  

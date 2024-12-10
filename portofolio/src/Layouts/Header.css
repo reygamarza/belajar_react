@@ -1,0 +1,25 @@
+/* Header.css */
+
+.gaming-header {
+    background: linear-gradient(90deg, #1f1c2c, #928dab);
+    border-bottom: 2px solid #ffcc00;
+  }
+  
+  .text-glow {
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff9900, 0 0 30px #ff6600;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .nav-link-custom {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link-custom:hover {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
